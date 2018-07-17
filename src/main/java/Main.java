@@ -9,7 +9,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public class Main {
-	private static final String ACCESS_TOKEN = "IWsEa8AKiAsAAAAAAAAAbxGz4NivNyjgkiP0x8Rr8TAXs0VltTdBZFOypOXSmHuV";
+	private static final String ACCESS_TOKEN = "";
 
 	public static void main(String[] args) throws IOException, DbxException {
 		DbxRequestConfig config = DbxRequestConfig.newBuilder("downloadfromStorage").withUserLocale("en_us").build();
